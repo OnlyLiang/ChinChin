@@ -1,0 +1,531 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+        @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+        @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+        @import url(https://fonts.googleapis.com/earlyaccess/cwtexming.css);
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+        .container{
+            width: 80%;
+        }
+        .font-yen {
+            /*圓體*/
+            font-family: 'cwTeXYen', sans-serif;
+        }
+
+        .font-notosans {
+            /*思源黑體*/
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        .font-song {
+            /*仿宋*/
+            font-family: 'cwTeXFangSong', serif;
+        }
+
+        .font-ming {
+            /*明體*/
+            font-family: 'cwTeXMing', serif;
+        }
+        .font-mj{ /*微軟正黑體*/
+            font-family:  'Microsoft JhengHei';
+        }
+        .font-song-regular{
+            font-family:  'notoserifcjktc';
+        }
+        .font-song-bold{
+            font-family: 'songbold';
+        }
+        .font-roboto{ /*roboto*/
+            font-family: 'Roboto', sans-serif;
+            font-weight:500;
+        }
+        .font-size-xsmall{
+            font-size: 0.8rem;
+        }
+        .font-size-small { /*字體大小*/
+            font-size: 1.2rem;
+        }
+        .font-size-middle{ /*字體大小*/
+            font-size: 1.4rem;
+        }
+        .font-size-large{
+            font-size: 2rem;
+        }
+        .font-size-xlarge{ /*ACCESS用*/
+            font-size: 3.5rem;
+        }
+        .font-size-big{ /*CHIN CHIN SERVICE JOURNAL用*/
+            font-size: 6rem;
+        }
+        .font-weight-400{ /*字重*/
+            font-weight: 400;
+        }
+        .font-weight-500{ 
+            font-weight: 500;
+        }
+        .color-white { /*白色*/
+            color: white;
+        }
+        .color-black{ /*黑色*/
+            color:rgb(49, 49, 49);
+        }
+        .transition{
+            transition:.3s;
+        }
+        .logo-size { 
+            height: 60px;
+        }
+        .height-100vh{ /*版面高度*/
+            height: 100vh;
+        }
+        .height-auto{
+            height: auto;
+        }
+        .max-height{
+            max-height: 300px;
+        }
+        .height-300{
+            height: 300px;
+        }
+        .height-50vh{
+            height: 50vh;
+        }
+        .height-30vh{
+            height: 30vh;
+        }
+        .height-70vh{
+            height: 70vh;
+        }
+        .max-width{
+            max-width: 597px;
+        }
+        .height-100{
+            height: 100%;
+        }
+        .width-100{
+            width: 100%;
+        }
+        .width-90{
+            width: 90%;
+        }
+        .ml-10{ /*離左邊間距10%*/
+            margin-left: 10%;
+        }
+        .px-10{ /*離左右內距10%*/
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        .overflow{
+            overflow: hidden;
+        }
+        .letter-space-1{ /*字距*/
+            letter-spacing: 0.1rem;
+        }
+        .letter-space-2{ /*字距*/
+            letter-spacing: 0.2rem;
+        }
+        .letter-space-3{ /*字距*/
+            letter-spacing: 0.3rem;
+        }
+        .letter-space-4{ /*字距*/
+            letter-spacing: 0.4rem;
+        }
+        .letter-space-5{ /*字距*/
+            letter-spacing: 0.5rem;
+        }
+        .mb-60{ /*間距*/
+            margin-bottom: -60px;
+        }
+        .mt-10{
+            margin-top: -10px;
+        }
+        .mt-6rem{
+            margin-top: 6rem;
+        }
+        .ml-5rem{
+            margin-left: -5rem;
+        }
+        .z-index{
+            z-index: 1;
+        }
+        .z-index-1{
+            z-index: -1;
+        }
+        .opacity{
+            opacity: .85;
+        }
+        .line-height{ /*行高*/
+            line-height: 2rem;
+        }
+        .line-height-50vh{ /*行高*/
+            line-height:50vh;
+        }
+        .line-height-70vh{ /*行高*/
+            line-height:70vh;
+        }
+        .object-fit{
+            object-fit:cover;
+        }
+        .object-position{
+            object-position: 50% 50%;
+        }
+        .relative{ /*相對*/
+            position: relative;
+        }
+        .absolute{ /*絕對*/
+            position: absolute;
+        }
+        .bottom-0{
+            bottom: 0;
+        }
+        .figure-bg1{
+            background-image: url(../image/service-1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center 70%;
+            transition: .3s ease-in-out;
+        }
+        .figure-bg1:hover{
+            background-image: url(../image/service-1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center 70%;
+            opacity: .6;
+        }
+        .figure-bg2{
+            background-image: url(../image/service-2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: .3s ease-in-out;
+        }
+        .figure-bg2:hover{
+            background-image: url(../image/service-2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: .6;
+        }
+        .figure-bg3{
+            background-image: url(../image/service-3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: .3s ease-in-out;
+        }
+        .figure-bg3:hover{
+            background-image: url(../image/service-3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: .6;
+        }
+        .figure-bg4{
+            background-image: url(../image/service-4.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:bottom;
+            transition: .3s ease-in-out;
+        }
+        .figure-bg4:hover{
+            background-image: url(../image/service-4.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:bottom;
+            opacity: .6;
+        }
+        .reserve:hover{
+            background-image: url(../image/reserve.jpg) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+            color: white;
+            transition: .5s;
+        }
+        .contact:hover{
+            background-image: url(../image/contact.jpg) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+            color: white;
+            transition: .5s;
+        }
+        .text-decoration:hover{
+            text-decoration: none;
+        }
+        .hover-grey:hover{
+            color:rgb(78, 78, 78);
+        }
+        .navbar{
+            transition: .5s;
+        }
+        .navbar.hide_nav{ 
+            transform: translateY(-100px);
+        }
+        .bg-black{
+            background:rgba(0, 0, 0, .6);
+        }
+        /*----- 選單hover效果 -----*/
+        .btn-2 {
+            letter-spacing: 0;
+            transition: .6s;
+          }
+          .btn-2:hover,
+          .btn-2:active {
+            letter-spacing: 5px;
+            color: #fff;
+          }
+          
+          .btn-2:after,
+          .btn-2:before {
+            -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+            border: 1px solid rgba(255, 255, 255, 0);
+            bottom: 0px;
+            content: " ";
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            transition: all 280ms ease-in-out;
+            width: 0;
+          }
+          
+          .btn-2:hover:after,
+          .btn-2:hover:before {
+            -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+            border-color: #fff;
+            transition: width 350ms ease-in-out;
+            width: 100%;
+          }
+          
+          .btn-2:hover:before {
+            bottom: auto;
+            top: 0;
+            width: 100%;
+          }
+
+          /*----- 黑色字選單hover效果 -----*/
+          .btn-3 {
+            letter-spacing: 0;
+            transition: .6s;
+          }
+          .btn-3:hover,
+          .btn-3:active {
+            letter-spacing: 5px;
+            color:rgb(49, 49, 49);
+          }
+          
+          .btn-3:after,
+          .btn-3:before {
+            -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+            border: 1px solid rgb(49, 49, 49);
+            bottom: 0px;
+            content: " ";
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            transition: all 280ms ease-in-out;
+            width: 0;
+          }
+          
+          .btn-3:hover:after,
+          .btn-3:hover:before {
+            -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+            border-color: rgb(49, 49, 49);
+            transition: width 350ms ease-in-out;
+            width: 100%;
+          }
+          
+          .btn-3:hover:before {
+            bottom: auto;
+            top: 0;
+            width: 100%;
+          }
+          .bg-about{ /*草地背景*/
+            background-image: url(../image/about-2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+          }
+          /* -----環境設施照片----- */
+          .bg-facility-1{
+            background-image: url(../image/about-facility-7.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+          }
+          .bg-facility-2{
+            background-image: url(../image/about-facility-3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+          }
+          .bg-facility-3{
+            background-image: url(../image/about-facility-5.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+          }
+          .bg-facility-4{
+            background-image: url(../image/about-facility-6.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+          }
+          .bg-service{ /*service背景*/
+            background-image: url(../image/service-bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+          }
+          .bg-journal{ /*journal背景*/
+            background-image: url(../image/journal-bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+          }
+          .bg-contact{ /*contact背景*/
+            background-image: url(../image/contact-bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+          }
+          .bg-reserve{
+            background-image: url(../image/reserve-bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+          }
+          .up{
+              transform: translateY(-10px);
+          }
+          .form-control{
+            border-style: none none solid none;
+          }
+          .border-style{
+              border-style: solid;
+          }
+          .box-shadow{
+              box-shadow:0 0 20px rgba(0, 0, 0, .1);
+          }
+          .box-shadow:hover{
+              color: rgb(49, 49, 49);
+              box-shadow:0 0 10px rgba(9, 255,0, 0.4);
+          }
+          .border-b{
+              border-bottom: 3px solid rgba(9, 255, 0,.4);
+          }
+          /* -----收合式選單 -----*/
+          .menu {
+            display:none;
+            cursor: pointer;
+            padding: 0 0 0 2px;
+            position: relative;
+          }
+      
+          ul,
+          li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+      
+          .bar {
+            width: 32px;
+            height: 4px;
+            background: rgb(255, 255, 255);
+            margin: 3px 0;
+            border-radius: 2px;
+          }
+      
+          .active .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-6px, 5px);
+            transform: rotate(-45deg) translate(-11px, 6px);
+          }
+      
+          .active .bar2 {
+            opacity: 0;
+          }
+      
+          .active .bar3 {
+            -webkit-transform: rotate(45deg) translate(-6px, -5px);
+            transform: rotate(45deg) translate(-6px, -4px);
+          }
+      
+          .submenu {
+            position: absolute;
+            top: 35px;
+            background: rgba(0, 0, 0, .6);
+            width: 150px;
+            overflow: hidden;
+            max-height: 0;
+          }
+          .active .submenu{
+            max-height:690%
+          }
+      
+          .submenu a {
+            font-family: 'cwTeXYen', sans-serif; 
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+          }
+        @media (max-width:992px){
+            .figure-bg1{
+                height:35vh;
+            }
+            .figure-bg2{
+                height: 35vh;
+            }
+            .figure-bg3{
+                height: 35vh;
+            }
+            .figure-bg4{
+                height: 35vh;
+            }
+            html{
+                font-size: 0.8rem;
+            }
+            .logo-size{
+                height: 50px;
+            }
+        }
+        @media (max-width:576px){
+            html{
+                font-size: 0.6rem;
+            }
+            .logo-size{
+                height: 40px;
+            }
+            .height-70vh{
+                height: 40vh;
+            }
+            .line-height-70vh{
+                line-height: 45vh;
+            }
+            .height-50vh{
+                height: 25vh;
+            }
+            .line-height-50vh{
+                line-height: 25vh;
+            }
+            .font-size-big{
+                font-size: 5rem;
+            }
+            .hr{
+                display: none;
+            }
+            .container{
+                width: 95%;
+            }
+            .px-10{
+                padding:0 2.5%;
+            }
+            .nav{
+                display: none;
+            }
+            .menu{
+                display: flex;
+                flex-direction: column;
+                align-items:flex-end;
+            }
+        }
