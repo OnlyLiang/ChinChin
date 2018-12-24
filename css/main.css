@@ -74,6 +74,9 @@
         .logo-size { 
             height: 60px;
         }
+        a:focus{ /*取消點擊出現藍色框*/
+            outline:none;
+        }
         .height-100vh{ /*版面高度*/
             height: 100vh;
         }
@@ -229,6 +232,23 @@
             background-position:bottom;
             opacity: .6;
         }
+        .reserve{
+            background-image: url(../image/reserve.jpg) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+            color: white;
+            transition: .5s;
+            opacity: 0;
+        }
+        .contact{
+            background-image: url(../image/contact.jpg) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center center;
+            color: white;
+            opacity: 0;
+        }
         .reserve:hover{
             background-image: url(../image/reserve.jpg) ;
             background-size: cover;
@@ -236,6 +256,7 @@
             background-position:center center;
             color: white;
             transition: .5s;
+            opacity: 1;
         }
         .contact:hover{
             background-image: url(../image/contact.jpg) ;
@@ -244,6 +265,7 @@
             background-position:center center;
             color: white;
             transition: .5s;
+            opacity: 1;
         }
         .text-decoration:hover{
             text-decoration: none;
